@@ -1,0 +1,17 @@
+// como calcular sua idade de cão no JavaScript
+const cao = 10.5
+const myAge = 16
+/* Minha idade */
+let earlyYears = 2
+earlyYears *= 10.5
+laterYears = myAge - 2
+/* Pega os primeiros anos de cachorro e diminui pelos primeiros da idade de humano (porque em dois anos se tiram 21 anos dos 2 da idade de cachorro para humano)*/
+laterYears *= 4
+/* Faz com que depois dos 2 anos, se multiplique por um numero constante para continuar a calcular a idade*/
+console.log(earlyYears)
+console.log(laterYears)
+/* earlyYears mostra uma constante ja calculado pelos 2 primeiros anos, e laterYears mostra a idade que sobrou (14 anos) multiplicado pela constante(*4) depois dos 2 anos de cachorro */
+let myAgeInDogYears = earlyYears + laterYears
+let myName = "Matheus"
+myName = myName.toLowerCase()
+console.log(`Meu nome é: ${myName}. Tenho ${myAge} anos como humano, que é: ${myAgeInDogYears} anos em idade de cães`)
