@@ -11,7 +11,7 @@ console.log()/*Comando básico para gerar algo no código[texto/número]*/
 Number = Números
 Bigint = Inteiro
 String = Texto
-Boolean = Verdadeiro/Falso [True/False]
+Boolean = Verdadeiro/Falso [true/false]
 Null = Nulo
 Undefined = Indefinido
 Symbol = Símbolo
@@ -33,17 +33,19 @@ Object = Objeto
 11.Não é igual a !==
  //Operadores Lógicos (Boolean)
 12. E &&
-13. Ou || /*Usado também para quando um não for verdadeiro, o outro seja
-14. Não ! /*Pode transformar verdadeiro em falso ou o contrario dele*/
-15. Se ? /*Pode ser usado para trocar o If e o Else de jeito que seja mais simples de se fazer*/
+13. Ou || (Usado também para quando um não for verdadeiro, o outro seja)
+14. Não ! (Pode transformar verdadeiro em falso ou o contrario dele)
+15. Se ?  (Pode ser usado para trocar o if e o else de jeito que seja mais simples de se fazer)
+
+*/
 // Exemplo Símbolo 15
 let Cor= "Azul"
 Cor ? console.log("Azul") : console.log("Verde")
-/*Como a variavel é verdadeira, o primeiro comando vai ser selecionado(=Azul), isso porque o primeiro serve como True e o segundo como False. 
+/*Como a variavel é verdadeira, o primeiro comando vai ser selecionado(=Azul), isso porque o primeiro serve como true e o segundo como false. 
 Mas se adicionado o ! na variavel(tranformar o verdadeiro para o falso), o segundo vai ser selecionado(=Verde)*/
 // Segundo Exemplo 15
-let Cor= True
-Cor ? console.log("Vermelho") : console.log("Amarelo")
+let tinta= true
+tinta ? console.log("Vermelho") : console.log("Amarelo")
 /*Acontece o mesmo como o primeiro exemplo (=Vermelho), mas oque muda é que você já declara a razão da variável nela mesma*/
 
 
@@ -97,7 +99,8 @@ console.log("        Água é vida".trim())
 /*-----------------------------------------------------------------------------------------------------------*/
 // Comandos Boolean
 /* 
-if(){} e else{}= onde se afirma que se algo Por aquilo que não foi esperado ou aceito, que faça outra função por ele. else = quando não conseguir a resposta, esse comando será como segunda mão para quando não houver(false) como ser colocado.
+if(){} e else{}= if = onde se afirma que se algo Por aquilo que não foi esperado ou aceito, que faça outra função por ele, 
+else = quando não conseguir a resposta, esse comando será como segunda mão para quando não houver(false) como ser colocado.
 Exemplo: */
 if(true){
     console.log("Essa mensagem será enviada")
