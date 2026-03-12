@@ -35,8 +35,16 @@ Object = Objeto
 12. E &&
 13. Ou || /*Usado também para quando um não for verdadeiro, o outro seja
 14. Não ! /*Pode transformar verdadeiro em falso ou o contrario dele*/
-
-
+15. Se ? /*Pode ser usado para trocar o If e o Else de jeito que seja mais simples de se fazer*/
+// Exemplo Símbolo 15
+let Cor= "Azul"
+Cor ? console.log("Azul") : console.log("Verde")
+/*Como a variavel é verdadeira, o primeiro comando vai ser selecionado(=Azul), isso porque o primeiro serve como True e o segundo como False. 
+Mas se adicionado o ! na variavel(tranformar o verdadeiro para o falso), o segundo vai ser selecionado(=Verde)*/
+// Segundo Exemplo 15
+let Cor= True
+Cor ? console.log("Vermelho") : console.log("Amarelo")
+/*Acontece o mesmo como o primeiro exemplo (=Vermelho), mas oque muda é que você já declara a razão da variável nela mesma*/
 
 
 /*----------------------------------------------------------------------------------------------------------*/
