@@ -1,0 +1,24 @@
+Exemplos do function
+
+//Criar um código aleatório de 6 digitos
+var numeros=(Math.floor(Math.random() *999999)); /*Escolhe aleatóriamente entre o número escolhido(999999)*/
+
+function senha(codigo){ /*Cria uma função chamada senha, mas com a ação de uma outra escolhida(codigo)*/
+    console.log(`O código é aleatório: ${codigo}`)
+}
+senha(numeros); 
+//Executa a váriavel (numeros) dentro da ação (codigo) na função (senha) 
+
+//Calculos aleatórios
+
+var adição =Math.floor(Math.random() *15)
+var negativo=Math.floor(Math.random() *-20)
+var calculum=Math.floor(Math.random() *50 )
+calculo= calculum + adição
+
+
+function calculos(calculo){
+    
+    
+}
+console.log(negativo)
