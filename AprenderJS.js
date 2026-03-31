@@ -32,12 +32,13 @@ Object = Objeto
 10.Igual a ===
 11.Não é igual a !==
  //Operadores Lógicos (Boolean)
-12. E &&
+12. E && = serve para adicionar outra razão junto a anterior que diz se é verdadeiro ou falso(Representação de conjunção)
+Exemplo:
+console.log(5>1 && 3==3)
+Resposta= True 
 13. Ou || (Usado também para quando um não for verdadeiro, o outro seja)
 14. Não ! (Pode transformar verdadeiro em falso ou o contrario dele)
-15. Se ?  (Pode ser usado para trocar o if e o else de jeito que seja mais simples de se fazer)
-
-*/
+15. Se ?  (Pode ser usado para trocar o if e o else de jeito que seja mais simples de se fazer)*/
 // Exemplo Símbolo 15
 let Cor= "Azul"
 Cor ? console.log("Azul") : console.log("Verde")
@@ -117,10 +118,27 @@ console.log('Está mensagem não está bloqueada')
 /* Resposta: Está mensagem não está bloqueada
 Isso porque no if na variável é falsa, então como ela não pode escrever algo verdadeiro, optou pela segunda mão */
 
-/* && = serve para adicionar outra razão junto a anterior que diz se é verdadeiro ou falso(Representação de conjunção)
-Exemplo: */
-console.log(5>1 && 3==3)
-/*Resposta:True, Essas operações são verdadeiras(verdade) por que 5 é maior que 1 e 3 é igual a 3 */
+/*switch= É como o if e else, só que de forma com que seja mais facil ler e entender */
+
+//Primeira utilização de Switch
+
+let athleteFinalPosition = 'first place';
+//Declaracao da switch na variável
+switch (athleteFinalPosition){
+  case ('first place'): /*Adiciona um caso na switch como uma verificação */
+  console.log('You get the gold medal!')
+  break // Termina o caso
+  case ('second place'):
+  console.log('You get the silver medal!')
+  break
+  case ('third place'):
+  console.log('You get the bronze medal!')
+  break
+  default: /*O default diz que se não houver nenhuma resposta igual ao que diz na variável,
+  dizer oque deve fazer quando não lhe for respondido[É a mesma coisa do else no if]*/
+    console.log('No medal awarded.')
+  break
+}
 
 
 
