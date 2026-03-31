@@ -1,24 +1,48 @@
 Exemplos do function
 
-//Criar um código aleatório de 6 digitos
+// Criar um código aleatório de 6 digitos
 var numeros=(Math.floor(Math.random() *999999)); /*Escolhe aleatóriamente entre o número escolhido(999999)*/
 
 function senha(codigo){ /*Cria uma função chamada senha, mas com a ação de uma outra escolhida(codigo)*/
     console.log(`O código é aleatório: ${codigo}`)
 }
 senha(numeros); 
-//Executa a váriavel (numeros) dentro da ação (codigo) na função (senha) 
+/*Executa a váriavel (numeros) dentro da ação (codigo) na função (senha) */
+
+
+//Entrega onde são entregadas cargas aleatórias
+let carga = Math.floor(Math.random() *20)
+let caixas = carga*5
+let produtos = caixas*2
+
+function Entrega(){
+    console.log(`Foram entregadas: ${carga} cargas, ${caixas} caixas e ${produtos} produtos`)
+}
+if (carga === 0){ /*uma condicao para quando nao houver cargas na entrega*/
+    console.log("Não foi entregado")
+}
+else {
+    Entrega();
+}
+
 
 //Calculos aleatórios
 
-var adição =Math.floor(Math.random() *15)
-var negativo=Math.floor(Math.random() *-20)
-var calculum=Math.floor(Math.random() *50 )
-calculo= calculum + adição
+let  adiçao=Math.floor(Math.random() *70)
+let  negativo=Math.floor(Math.random() *-40)
+let  divisor=Math.floor(Math.random() *10)
+let  multiplicador=Math.floor(Math.random() *5)
+const calculum= Math.floor(adiçao+negativo/divisor*multiplicador)
 
-
-function calculos(calculo){
-    
-    
+if (multiplicador === 0){
+    console.log(`O calculo não é complexo porque o multiplicador é: ${multiplicador} \n`)
 }
-console.log(negativo)
+else if (divisor === 0){
+    console.log(`O calculo não consegue ser feito porque o divisor é: ${divisor} \n`)
+}
+function calculo(){
+    console.log(`O resultado dos calculos é de: ${calculum}
+     +${adiçao}${negativo}/${divisor}*${multiplicador}`)
+}
+calculo();
+    
