@@ -45,4 +45,39 @@ function calculo(){
      +${adiçao}${negativo}/${divisor}*${multiplicador}`)
 }
 calculo();
+
+
+//O return funciona como uma execução para a ação escolhida, como se fosse uma calculadora, mas ela não executa porque o (=) não foi executado
+
+//Primeiro Exemplo: Em um livro, para cada pagina tem 5 capitulos
+
+function livro(paginas,capitulos){
+  const livro = paginas * capitulos /*Cria um uma váriavel com uma ação*/
+  return livro /*Retorna a ação da váriavel para ela ser executada(Chama a váriavel)*/
+
+}
+
+//Exemplo:
+console.log(livro(200 /*Número de paginas*/,5 /*Número de capitulos por pagina*/))
+/*Resposta= 1000 */
+
+//Exemplo se forem paginas aleatórias:
+console.log(livro(Math.floor(Math.random()*350 /*Tem no máximo 350*/), 5 /*Número de capítulos para cada página*/))
+/*Resposta: De 1-350 paginas * 5 capitulos */
+
+
+//Segundo Exemplo do Return
+
+//1 ou 2 mensagens precisam ser enviadas
+
+function ativacaodeMensagens(mensagem1,mensagem2){
+    mensagem = mensagem1 + mensagem2
+    return mensagem
+}
+//Exemplo se for colocado 1 mensagem:
+console.log(ativacaodeMensagens("Agora são 8 horas da manhã ")/*A segunda mensagem não foi definida por isso é colocado undefined*/)
+
+//Exemplo se for 2 mensagens:
+console.log(ativacaodeMensagens("Numa Montanha "/*Colocando a primeira funcão na (mensagem1)*/,"existe um Horizonte" /*Colocando a segunda funcão na (mensagem2)*/))
+
     
