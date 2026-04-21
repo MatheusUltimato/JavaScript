@@ -1,4 +1,5 @@
 Exemplos do function
+(Para conseguir colocar variáveis dentro da função, crie uma variável PRIMEIRO antes da propria função e depois chame ela na própria função para funcionar)
 
 // Criar um código aleatório de 6 digitos
 var numeros=(Math.floor(Math.random() *999999)); /*Escolhe aleatóriamente entre o número escolhido(999999)*/
