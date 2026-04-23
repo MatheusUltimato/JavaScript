@@ -81,4 +81,14 @@ console.log(ativacaodeMensagens("Agora são 8 horas da manhã ")/*A segunda mens
 //Exemplo se for 2 mensagens:
 console.log(ativacaodeMensagens("Numa Montanha "/*Colocando a primeira funcão na (mensagem1)*/,"existe um Horizonte" /*Colocando a segunda funcão na (mensagem2)*/))
 
-    
+// Function simplificado e criado com seta(Arrows)
+
+const Grama = (Terreno) =>{ /* Na váriavel é criado outra váriavel (Terreno) e junto a => que faz a função dela */
+    if (Terreno === 'Cortado')
+    return ("Não precisa a grama ser cortada")
+    else if (Terreno === "Crescido")
+    return ("A grama precisa ser cortada")
+    else
+    return ("Esse terreno não existe")
+}
+console.log(Grama('Cortado'))
