@@ -92,3 +92,20 @@ const Grama = (Terreno) =>{ /* Na váriavel é criado outra váriavel (Terreno) 
     return ("Esse terreno não existe")
 }
 console.log(Grama('Cortado'))
+
+
+                                                ARROW FUNCTION
+//Função com Flecha:
+
+//Função com 2 variáveis
+const soma = (primeiro,segundo) =>{
+    return primeiro + segundo
+}
+console.log(soma(901,2323))
+
+//Função com 2 variáveis
+const soma = (primeiro,segundo) =>{
+    return primeiro + segundo
+    console.log()
+}
+
