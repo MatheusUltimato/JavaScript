@@ -97,15 +97,17 @@ console.log(Grama('Cortado'))
                                                 ARROW FUNCTION
 //Função com Flecha:
 
+//Função com variável
+let fazenda = plantacao =>{
+return plantacao === "madura" ? console.log("Está madura"):
+console.log("Ainda está florescendo")
+}
+console.log(fazenda(""))
+
 //Função com 2 variáveis
 const soma = (primeiro,segundo) =>{
     return primeiro + segundo
 }
 console.log(soma(901,2323))
 
-//Função com 2 variáveis
-const soma = (primeiro,segundo) =>{
-    return primeiro + segundo
-    console.log()
-}
 
