@@ -82,7 +82,6 @@ console.log(ativacaodeMensagens("Agora são 8 horas da manhã ")/*A segunda mens
 console.log(ativacaodeMensagens("Numa Montanha "/*Colocando a primeira funcão na (mensagem1)*/,"existe um Horizonte" /*Colocando a segunda funcão na (mensagem2)*/))
 
 // Function simplificado e criado com seta(Arrows)
-
 const Grama = (Terreno) =>{ /* Na váriavel é criado outra váriavel (Terreno) e junto a => que faz a função dela */
     if (Terreno === 'Cortado')
     return ("Não precisa a grama ser cortada")
@@ -94,7 +93,8 @@ const Grama = (Terreno) =>{ /* Na váriavel é criado outra váriavel (Terreno) 
 console.log(Grama('Cortado'))
 
 
-                                                ARROW FUNCTION
+/*                                                    ARROW FUNCTION                                                      */
+
 //Função com Flecha:
 
 //Função com variável
@@ -117,3 +117,6 @@ const soma = (primeiro,segundo) =>{
 console.log(soma(901,2323))
 
 
+let garrafa = (estado) => { 
+    estado === "enferrujada" ? console.log("Está enferrujada") : console.log("Está boa para beber")}
+garrafa()
