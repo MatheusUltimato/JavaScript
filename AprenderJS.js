@@ -118,10 +118,21 @@ console.log('Está mensagem não está bloqueada')
 /* Resposta: Está mensagem não está bloqueada
 Isso porque no if na variável é falsa, então como ela não pode escrever algo verdadeiro, optou pela segunda mão */
 
+
+/*                                              Operação ternária                                                      */
+// É a simplificação do if e else.
+
+let caderno = "escrito" 
+caderno === "escrito" ? console.log("Há algo escrito"): console.log("Há algo a se escrever")
+//Se nada for colocado é porque há algo a se escrever no caderno
+
+
+
+/*                                                   Switch                                                            */
 /*switch= É como o if e else, só que de forma com que seja mais facil ler e entender */
 
-//Primeira utilização de Switch
 
+//Primeira utilização de Switch
 let athleteFinalPosition = 'first place';
 //Declaracao da switch na variável
 switch (athleteFinalPosition){
