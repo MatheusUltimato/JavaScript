@@ -98,11 +98,17 @@ console.log(Grama('Cortado'))
 //Função com Flecha:
 
 //Função com variável
-let fazenda = plantacao =>{
-return plantacao === "madura" ? console.log("Está madura"):
+let fazenda = plantacao =>{ /* Cria a função com a variavel a partir da "fazenda", 
+sendo plantação a váriavel e =>{} a criação da função */
+switch (plantacao) {
+case "madura":
+    console.log("Está madura");
+    break
+default:
 console.log("Ainda está florescendo")
-}
-console.log(fazenda(""))
+} }
+fazenda("madura")
+
 
 //Função com 2 variáveis
 const soma = (primeiro,segundo) =>{
