@@ -26,6 +26,13 @@ else {
     Entrega();
 }
 
+// Qual estado de preparo do arroz
+function arroz (estado){
+    estado === "pronto"
+    return console.log("\nEstá pronto para a mesa")
+}
+arroz("pronto")
+
 
 //Calculos aleatórios
 
