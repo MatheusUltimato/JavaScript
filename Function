@@ -127,3 +127,12 @@ console.log(soma(901,2323))
 let garrafa = (estado) => { 
     estado === "enferrujada" ? console.log("Está enferrujada") : console.log("Está boa para beber")}
 garrafa()
+
+
+// Conciso do corpo de uma função com flecha 
+let multiplicar = numero => console.log(numero * numero)
+multiplicar(10)
+
+// Conciso do corpo de uma função com flecha e 2 variáveis
+let soma = (numero1,numero2) => console.log(numero1 + numero2)
+soma(7,8)
