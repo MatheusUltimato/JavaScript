@@ -54,10 +54,11 @@ function calculo(){
 }
 calculo();
 
+/*                             Return                                                          */
 
-//O return funciona como uma execução para a ação escolhida, como se fosse uma calculadora, mas ela não executa porque o (=) não foi executado
+// O return funciona como uma execução para a ação escolhida, como se fosse uma calculadora, mas ela não executa porque o (=) não foi executado
 
-//Primeiro Exemplo: Em um livro, para cada pagina tem 5 capitulos
+// Primeiro Exemplo: Em um livro, para cada pagina tem 5 capitulos
 
 function livro(paginas,capitulos){
   const livro = paginas * capitulos /*Cria um uma váriavel com uma ação*/
@@ -67,7 +68,7 @@ function livro(paginas,capitulos){
 
 //Exemplo:
 console.log(livro(200 /*Número de paginas*/,5 /*Número de capitulos por pagina*/))
-/*Resposta= 1000 */
+/* Resposta = 1000 */
 
 //Exemplo se forem paginas aleatórias:
 console.log(livro(Math.floor(Math.random()*350 /*Tem no máximo 350*/), 5 /*Número de capítulos para cada página*/))
